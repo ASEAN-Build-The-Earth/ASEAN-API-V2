@@ -2,7 +2,9 @@
     "Name": "MBS",
     "description": "MBS API ",
     "Builders": "SG Team",
-    "Location": "Marina Bay Sands, Singapore",
+    "Location": "Marina Bay Sands",
+    "Country": "Singapore",
+     "City": "Singapore",
     "Other Info": "NIL",
       "ImageURL": "https://images-ext-1.discordapp.net/external/b_JH2EExCwZBSB9Jb2vqi8Qsy_KYLHysbyset9NZ1X0/https/media.discordapp.net/attachments/744480657018847232/760271072058146816/2020-09-28_23.56.24.png?width=1266&height=671"
 

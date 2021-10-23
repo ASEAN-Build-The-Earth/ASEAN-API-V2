@@ -2,8 +2,10 @@
     "Name": "Tanjongpagar",
     "description": "Tanjong Pagar API ",
     "Builders": "SG Team",
-    "Location": "Tanjong Pagar, Singapore",
-    "Other Info": "NIL",
+    "Location": "Tanjong Pagar",
+    "Country": "Singapore",
+    "City": "Singapore",
+      "Other Info": "NIL",
       "ImageURL": "https://cdn.discordapp.com/attachments/901041876986134539/901046975565295626/2021-05-02_16.png"
 
 }
