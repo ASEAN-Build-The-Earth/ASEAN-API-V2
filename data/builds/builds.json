@@ -25,11 +25,13 @@
     },
     {
         "name": "Chinatown, Singapore",
-        "image": "https://i.imgur.com/cMNnHFI.jpg"
+        "image": "https://i.imgur.com/cMNnHFI.jpg",
+        "description": "Chinatown's physical development began from 1843, when more land leases and grants for homes and trade were awarded – particularly around Pagoda Street, Almeida Street (today's Temple Street), Smith Street, Trengganu Street, Sago Street and Sago Lane."
     },
     {
         "name": "Buddha Tooth Relic Temple, Singapore",
-        "image": "https://i.imgur.com/zI0k5rh.png"
+        "image": "https://i.imgur.com/zI0k5rh.png",
+        "description": "The Buddha Tooth Relic Temple and Museum is a Buddhist temple and museum complex located in the Chinatown district of Singapore. The temple's monastics and devotees officially practice Chinese Buddhism."
     },
     {
         "name": "Merlion Park, Singapore",
@@ -41,7 +43,8 @@
     },
     {
         "name": "HSBC Building, Singapore",
-        "image": "https://i.imgur.com/xrCzmba.png"
+        "image": "https://i.imgur.com/xrCzmba.png",
+        "description": "It stands at 290m (951 ft), exempted from the height restriction of 280m in the Central Business District."
     }
 
 ]
