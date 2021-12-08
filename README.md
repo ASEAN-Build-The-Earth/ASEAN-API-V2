@@ -9,3 +9,11 @@ To add JSON data head over to the data directory, and find the folder in which y
 - Create a new JSON string under the main array
 - Make sure that there are no errors or typos in the JSON data which you are adding 
 - Double check before making a PR
+
+### Contributors
+
+<br>
+
+<a href="https://github.com/ASEAN-Build-The-Earth/ASEAN-API-V2/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ASEAN-Build-The-Earth/ASEAN-API-V2" />
+</a>
