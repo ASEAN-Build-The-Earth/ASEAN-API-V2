@@ -4,6 +4,6 @@ function randomObject(obj) {
     document.getElementById("content").innerHTML = JSON.stringify(arr[randomValue]);
 }
 
-$.getJSON("../../../data/builds/builds.json", function (data) {
+$.getJSON("../../../data/builds/compressed/builds.min.json", function (data) {
     randomObject(data);
 })
