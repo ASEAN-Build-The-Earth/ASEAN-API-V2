@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "require": "^2.4.20"
+  },
+  "name": "asean-api-v2",
+  "description": "The API for ASEAN BTE to get memes build sites and more!",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASEAN-Build-The-Earth/ASEAN-API-V2.git"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "node",
+    "javascript"
+  ],
+  "author": "ASEAN-BTE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ASEAN-Build-The-Earth/ASEAN-API-V2/issues"
+  },
+  "homepage": "https://github.com/ASEAN-Build-The-Earth/ASEAN-API-V2#readme"
+}
