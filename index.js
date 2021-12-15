@@ -5,7 +5,7 @@ const path = require('path')
 // JSON Data
 const dataAnimePat = require('./data/anime/pat/pat.json')
 const dataAnimeDance = require('./data/anime/dance/dance.json')
-const dataCat = require('./data/cat/gif.json')
+const dataCat = require('./data/cat/cat.json')
 const dataDog = require('./data/dog/dog.json')
 const dataBuilds = require('./data/builds/compressed/builds.min.json')
 const dataMeme = require('./data/meme/meme.json')
