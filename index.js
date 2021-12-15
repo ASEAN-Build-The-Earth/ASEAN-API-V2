@@ -6,6 +6,7 @@ const path = require('path')
 const dataAnimePat = require('./data/anime/pat/pat.json')
 const dataAnimeDance = require('./data/anime/dance/dance.json')
 const dataCat = require('./data/cat/gif.json')
+const dataDog = require('./data/dog/dog.json')
 const dataBuilds = require('./data/builds/compressed/builds.min.json')
 const dataMeme = require('./data/meme/meme.json')
 
@@ -39,7 +40,7 @@ app.get('/api/v1/meme', (req, res) => {
     res.json(randomObject(dataMeme))
 })
 
-app.get('/api/v1/Dog', (req, res) => {
+app.get('/api/v1/dog', (req, res) => {
     res.json(randomObject(dataDog))
 })
 
