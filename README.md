@@ -31,6 +31,7 @@ Here are few ways you can contribute to this project
 - Finding the right images/gifs.
     - After finding the images/gifs, upload them to [`imgur`](https://imgur.com), this will make the JSON files seem consistent.
     - If you want a  MP4 to be used, then upload it to [`imgur`](https://imgur.com) and copy it's link and add `.gif` to the end and paste the link in the JSON file
+- Avoid duplicate gifs/images. Double check if the gif/image link exists in the JSON data already or not
 
 ### <strong>Contributors</strong>
 
