@@ -27,7 +27,7 @@ app.get('/api/v1/anime/dance', (req, res) => {
     res.json(randomObject(dataAnimeDance))
 })
 
-app.get('/api/v1/cat/gif', (req, res) => {
+app.get('/api/v1/cat', (req, res) => {
     res.json(randomObject(dataCat))
 })
 
