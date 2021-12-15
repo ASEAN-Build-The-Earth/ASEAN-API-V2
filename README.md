@@ -1,17 +1,27 @@
-# ASEAN-API-V2
+# <strong> ASEAN-API-V2</strong>
 The API for ASEAN BTE to get memes build sites and more!
 
-### Adding JSON data 
+### <strong>Contributing</strong> 
 
-To add JSON data head over to the data directory, and find the folder in which you are going to add the JSON data. Make sure that the data which you are going to add is in context with the folder's name.
+Here are few ways you can contribute to this project 
 
-#### Steps to add JSON data
-- Create a new JSON string under the main array
-- Make sure that there are no errors or typos in the JSON data which you are adding 
-- Double check before making a PR
+- If there are bugs, raise issues
+- Fix the bugs
+- Add more JSON data 
 
-### Contributors
 
+#### <strong>Steps to add JSON data</strong>
+- Find the JSON file to which you are going to add the data.
+  - All the JSON data files are present in the [`data`](https://github.com/ASEAN-Build-The-Earth/ASEAN-API-V2/tree/main/data) directory.
+  - Each category's JSON files are present in seprate folders.
+    - Such as the `cat` related JSON files are present in [`data/cat`](https://github.com/ASEAN-Build-The-Earth/ASEAN-API-V2/tree/main/data/cat).
+- Finding the right images/gifs.
+    - After finding the images/gifs, upload them to [`imgur`](https://imgur.com), this will make the JSON files seem consistent.
+    - If you want a  MP4 to be used, then upload it to [`imgur`](https://imgur.com) and copy it's link and add `.gif` to the end and paste the link in the JSON file
+
+### <strong>Contributors</strong>
+
+Thanks a lot for taking your time out and contributing to this project
 <br>
 
 <a href="https://github.com/ASEAN-Build-The-Earth/ASEAN-API-V2/graphs/contributors">
