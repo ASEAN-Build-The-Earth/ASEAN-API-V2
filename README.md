@@ -1,6 +1,19 @@
 # <strong> ASEAN-API-V2</strong>
 The API for ASEAN BTE to get memes build sites and more!
 
+### <strong>Prerequisites</strong>
+Before starting working on this project, please make sure you have already installed following tools:
+- [Git](https://git-scm.com/downloads)
+- [NodeJS](https://nodejs.org/en/download/)
+
+
+### <strong>Installation Steps</strong>
+1. Fork the repository
+2. Clone the project
+3. Navigate to the project directory, `cd ASEAN-API-V2`
+4. Install dependencies with `npm install`
+5. Run `npm start`
+
 ### <strong>Contributing</strong> 
 
 Here are few ways you can contribute to this project 
