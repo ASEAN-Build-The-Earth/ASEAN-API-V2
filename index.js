@@ -39,5 +39,9 @@ app.get('/api/v1/meme', (req, res) => {
     res.json(randomObject(dataMeme))
 })
 
+app.get('/api/v1/Dog', (req, res) => {
+    res.json(randomObject(dataDog))
+})
+
 const port = process.env.PORT || 3000
 app.listen(port, () => console.log(`The server has started and listening to port ${port}`))
