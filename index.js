@@ -44,5 +44,13 @@ app.get('/api/v1/dog', (req, res) => {
     res.json(randomObject(dataDog))
 })
 
+app.get('/api/v1/bird', (req, res) => {
+    res.json(randomObject(dataDog))
+})
+
+app.get('/api/v1/fox', (req, res) => {
+    res.json(randomObject(dataDog))
+})
+
 const port = process.env.PORT || 3000
 app.listen(port, () => console.log(`The server has started and listening to port ${port}`))
