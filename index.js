@@ -9,6 +9,9 @@ const dataCat = require('./data/cat/cat.json')
 const dataDog = require('./data/dog/dog.json')
 const dataBuilds = require('./data/builds/compressed/builds.min.json')
 const dataMeme = require('./data/meme/meme.json')
+const dataFox = require('./data/fox/fox.json')
+const dataBird = require('./data/bird/bird.json')
+
 
 function randomObject(obj) {
     const arr = Object.values(obj)
