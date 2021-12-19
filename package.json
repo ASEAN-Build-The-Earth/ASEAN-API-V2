@@ -1,13 +1,13 @@
 {
   "dependencies": {
     "express": "^4.17.1",
-    "require": "^2.4.20"
+    "require": "^2.4.20",
+    "uglify-js": "^3.14.5"
   },
   "name": "asean-api-v2",
   "description": "The API for ASEAN BTE to get memes build sites and more!",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
