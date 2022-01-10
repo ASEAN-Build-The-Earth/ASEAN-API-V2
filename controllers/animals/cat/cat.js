@@ -2,7 +2,7 @@ const apiSchema = require("../../../model/model.js")
 const randomObject = require("../../../utils/randomObject.js")
 
 const getCatto = (req, res) => {
-    apiSchema.find({ type: 'shitpost' }, { _id: 0, __v: 0 }, (err, data) => {
+    apiSchema.find({ type: 'cat' }, { _id: 0, __v: 0 }, (err, data) => {
         if (err) {
             res.json(err);
         }
