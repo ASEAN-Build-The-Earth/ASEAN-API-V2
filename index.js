@@ -1,48 +1,48 @@
+// Dependencies
 const express = require('express')
-const app = express()
-const path = require('path')
+const mongoose = require('mongoose')
+const path = require("path");
+const cors = require('cors')
+const dotenv = require("dotenv");
 
-// JSON Data
-const dataAnimePat = require('./data/anime/pat/pat.json')
-const dataAnimeDance = require('./data/anime/dance/dance.json')
-const dataCat = require('./data/cat/cat.json')
-const dataDog = require('./data/dog/dog.json')
-const dataBuilds = require('./data/builds/compressed/builds.min.json')
-const dataMeme = require('./data/meme/meme.json')
+dotenv.config();
 
-function randomObject(obj) {
-    const arr = Object.values(obj)
-    const index = Math.floor(Math.random() * arr.length)
-    return arr[index]
-}
+const app = express();
+
+// Routes
+const anime = require("./routes/anime/anime.js")
+const catto = require("./routes/animal/cat/cat.js")
+const doggo = require("./controllers/animals/dog/dog.js")
+const builds = require("./routes/builds/builds.js")
+const meme = require("./routes/meme/meme.js")
+
+// MongoDB connection
+mongoose
+    .connect(process.env.MONGODB_URL, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+    })
+    .then(() => {
+        console.log("Connected to MongoDB");
+    })
+    .catch((err) => {
+        console.log(err);
+    });
+
+
+app.use(cors());
+app.use(express.static("views"));
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'static/index.html'))
 })
+app.use("/api/v2/anime", anime);
+app.use("/api/v2/cat", catto)
+app.use("/api/v2/dog", doggo)
+app.use("/api/v2/builds", builds)
+app.use("/api/v2/meme", meme)
 
-app.get('/api/v1/anime/pat', (req, res) => {
-    res.json(randomObject(dataAnimePat))
-})
-
-app.get('/api/v1/anime/dance', (req, res) => {
-    res.json(randomObject(dataAnimeDance))
-})
-
-app.get('/api/v1/cat', (req, res) => {
-    res.json(randomObject(dataCat))
-})
-
-app.get('/api/v1/builds', (req, res) => {
-    res.json(randomObject(dataBuilds))
-})
-
-app.get('/api/v1/meme', (req, res) => {
-    res.json(randomObject(dataMeme))
-})
-
-app.get('/api/v1/dog', (req, res) => {
-    res.json(randomObject(dataDog))
-})
-
-const port = process.env.PORT || 3000
-app.listen(port, () => console.log(`The server has started and listening to port ${port}`))
+const port = process.env.PORT || 3000;
+app.listen(port, async () => {
+    console.log(`Server up on port ${port}`);
+});

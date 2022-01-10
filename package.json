@@ -1,16 +1,19 @@
 {
-  "dependencies": {
-    "express": "^4.17.1",
-    "require": "^2.4.20"
-  },
   "name": "asean-api-v2",
   "description": "The API for ASEAN BTE to get memes build sites and more!",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.5",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "require": "^0.4.4"
   },
   "repository": {
     "type": "git",

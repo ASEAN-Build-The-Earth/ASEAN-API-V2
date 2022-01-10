@@ -1,0 +1,18 @@
+body {
+  font-family: monospace;
+}
+.heading {
+  font-size: x-large;
+}
+.sub-heading {
+  font-size: larger;
+  color: rgb(117, 148, 250);
+}
+.endpoint {
+  font-size: large;
+  color: rgb(83, 178, 241);
+}
+.description {
+  font-size: medium;
+  color: rgb(9, 111, 179);
+}
