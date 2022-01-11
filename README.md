@@ -1,43 +1,72 @@
-# <strong> ASEAN-API-V2</strong>
-The API for ASEAN BTE to get memes build sites and more!
+# ASEAN-API-V2
 
-### <strong>Prerequisites</strong>
-Before starting working on this project, please make sure you have already installed following tools:
+The API for ASEAN BTE to get memes, build sites, and more!
+
+## 👨‍💻 Demo
+
+Check out the website: [ASEAN BTE API](aseanbte-api.herokuapp.com/)
+
+## 👇 Prerequisites
+
+Before starting working on this project, please make sure you have already installed the following tools:
+
 - [Git](https://git-scm.com/downloads)
 - [NodeJS](https://nodejs.org/en/download/)
+- [MongoDB Compass](https://www.mongodb.com/try/download/compass)
 
+## 🛠️ Installation Steps
 
-### <strong>Installation Steps</strong>
-1. Fork the repository
-2. Clone the project
-3. Navigate to the project directory, `cd ASEAN-API-V2`
+1. Fork the project
+2. Clone the project, by using the following command
+   ```bash
+   $ git clone https://github.com/ASEAN-Build-The-Earth/ASEAN-API-V2
+   ```
+3. Navigate to the project directory `cd ASEAN-API-V2`
 4. Install dependencies with `npm install`
-5. Run `npm start`
+5. Run `npm start` to start a local development environment
 
-### <strong>Contributing</strong> 
+Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ASEAN-Build-The-Earth/ASEAN-API-V2)
 
-Here are few ways you can contribute to this project 
+## 📁 File structure
 
-- If there are bugs, raise issues
-- Fix the bugs
-- Add more JSON data 
+ASEAN BTE API follows the traditional express API folder structure
 
+- `controllers`
+- `model`
+- `routes`
+- `views`
+- `utils`
 
-#### <strong>Steps to add JSON data</strong>
-- Find the JSON file to which you are going to add the data.
-  - All the JSON data files are present in the [`data`](https://github.com/ASEAN-Build-The-Earth/ASEAN-API-V2/tree/main/data) directory.
-  - Each category's JSON files are present in seprate folders.
-    - Such as the `cat` related JSON files are present in [`data/cat`](https://github.com/ASEAN-Build-The-Earth/ASEAN-API-V2/tree/main/data/cat).
-- Finding the right images/gifs.
-    - After finding the images/gifs, upload them to [`imgur`](https://imgur.com), this will make the JSON files seem consistent.
-    - If you want a  MP4 to be used, then upload it to [`imgur`](https://imgur.com) and copy it's link and add `.gif` to the end and paste the link in the JSON file
-- Avoid duplicate gifs/images. Double check if the gif/image link exists in the JSON data already or not
+### Controllers
 
-### <strong>Contributors</strong>
+The main logic (such as fetching the data from the MongoDB database) for each route is present inside the `controllers` folder
 
-Thanks a lot for taking your time out and contributing to this project
-<br>
+### Model
 
-<a href="https://github.com/ASEAN-Build-The-Earth/ASEAN-API-V2/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ASEAN-Build-The-Earth/ASEAN-API-V2" />
-</a>
+The API schemas are present inside the `model` folder.
+
+### Routes
+
+Each endpoint is divided into smaller files that are present inside the `routes` folder, which then can be imported into the main `index.js` file.
+
+### Views
+
+All the `HTML` and `CSS` stylesheets are present inside the `views` folder
+
+### Utils
+
+Any utility function/logic are present inside this folder, which then can be imported into the `controllers` or any other folder and used inside them
+
+## 👨‍💻 Contributing
+
+All kinds of contributions are always welcomed. It is recommended to either tell the maintainers that you are working on a previously made issue or make a new issue and let the maintainers now that you are working on it.
+
+## 💪 Thanks to all Contributors
+
+Thanks a lot for spending your time helping ASEAN BTE API grow. Thanks a lot!
+
+[![Contributors](https://contrib.rocks/image?repo=ASEAN-Build-The-Earth/ASEAN-API-V2)](https://github.com/ASEAN-Build-The-Earth/ASEAN-API-V2/graphs/contributors)
+
+## 🙏 Support
+
+This project needs a ⭐️ from you. Don't forget to leave a star ⭐️
